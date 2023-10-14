@@ -1,2 +1,8 @@
-# Github-Profile-Fetcher-HonoJs
-A github profile fetching tool build using Hono JS
+```
+npm install
+npm run start
+```
+
+```
+open http://localhost:3000
+```
