@@ -28,7 +28,7 @@ app.get('/repos/:id', async (c) =>{
     const repoJson = await fetched.json();
     console.log(repoJson);
 
-    let repoarray=[];
+    const repoarray : string[]=[]; //explicitly type the array;
 
     for( var i in repoJson){
         repoarray.push(repoJson[i].name);
